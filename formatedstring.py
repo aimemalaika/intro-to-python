@@ -18,3 +18,11 @@ selfish = "01234567"
 # use negative index to start at the end on the string
 print(selfish[0:8:3])
 print(selfish[::-2])
+
+# ummutability
+
+selfish = "01234567"
+
+# can't reasign a index value in a string
+selfish[2] = 9
+print(selfish)
