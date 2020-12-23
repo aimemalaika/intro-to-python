@@ -8,7 +8,7 @@ print("Hi "+name+" you are "+str(age)+" years old")
 print(f"Hi {name} you are {age} years old")
 
 # print in formates string python 2
-print("Hi {0} you are {1} years old".format(name,age))
+print("Hi {0} you are {1} years old".format(name, age))
 
 # sings indexation
 
@@ -24,5 +24,5 @@ print(selfish[::-2])
 selfish = "01234567"
 
 # can't reasign a index value in a string
-selfish[2] = 9
+# selfish[2] = 9
 print(selfish)
